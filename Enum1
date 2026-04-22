@@ -1,0 +1,14 @@
+enum Status{
+  Running ,failed,success;
+}
+
+public class Demoi{
+  public static void main(String[] args) {
+    // Status s = Status.Running;
+    // System.out.println(s.ordinal());
+    Status [] ss = Status.values();
+    for(Status s : ss){
+      System.out.println(s);
+    }
+  }
+}
